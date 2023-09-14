@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+}
+.menu {
+
+}
+.jumbo {
+  background-color: blueviolet;
+}
+
+.menu {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.logo,
+.menu-list,
+.sign-in {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-list {
+  width: 75%;
+  list-style-type: none;
+  font-weight: bold;
+  text-align: center;
+}
+.menu-list__item {
+  display: inline-block;
+  margin: 0 20px;
+}
+.menu-list__item a {
+  text-decoration: none;
+  color: black;
+}
+.menu-list__item a:hover,
+.menu-list__item a:active,
+.menu-list__item a:focus {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #706AE2;
+}
+
+
+.sign-in {
+  width: 10%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 60px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.sign-in:hover,
+.sign-in:active,
+.sign-in:focus {
+  background-color: #0067CB;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-user {
+  padding: 0 2px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.sign-in:hover .icon-user,
+.sign-in:active .icon-user,
+.sign-in:focus .icon-user {
+  border: 1px solid white;
+}
