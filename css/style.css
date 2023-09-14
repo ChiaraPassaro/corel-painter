@@ -8,16 +8,21 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-
+.btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 60px;
+  background-color: transparent;
+  font-weight: bold;
 }
-.menu {
-
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: white;
+  cursor: pointer;
 }
-.jumbo {
-  background-color: blueviolet;
-}
 
+/* Menu */
 .menu {
   width: 80%;
   margin: 0 auto;
@@ -52,32 +57,65 @@ header {
   border-bottom: 2px solid #706AE2;
 }
 
-
 .sign-in {
   width: 10%;
-  padding: 15px 20px;
-  border: none;
-  border-radius: 60px;
-  background-color: transparent;
-  font-weight: bold;
 }
-
 .sign-in:hover,
 .sign-in:active,
 .sign-in:focus {
   background-color: #0067CB;
-  color: white;
-  cursor: pointer;
 }
-
-.icon-user {
+.sign-in .icon-user {
   padding: 0 2px;
   border: 1px solid black;
   border-radius: 2px;
 }
-
 .sign-in:hover .icon-user,
 .sign-in:active .icon-user,
 .sign-in:focus .icon-user {
   border: 1px solid white;
+}
+
+/* Jumbo */
+.jumbo {
+  padding: 140px;
+  background-image: url(../img/hero-ptr-2023.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.jumbo-content {
+  width: 500px;
+  margin: 0 auto;
+}
+.jumbo-content h1,
+.jumbo-content h2  {
+  margin-bottom: 15px;
+}
+.jumbo-content ul {
+  margin-left: 60px;
+  margin-bottom: 20px;
+  list-style-type: ">";
+
+}
+.jumbo-content ul li {
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.jumbo-content ul li::marker {
+  color: gray;
+}
+
+
+.download {
+  border: 1px solid white;
+  color: white;
+}
+.download:hover, 
+.download:active, 
+.download:focus {
+  background-color: white;
+  color: black;
 }
