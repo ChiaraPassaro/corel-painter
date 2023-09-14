@@ -103,11 +103,9 @@ html {
   margin-bottom: 8px;
   padding-left: 10px;
 }
-
 .jumbo-content ul li::marker {
   color: gray;
 }
-
 
 .download {
   border: 1px solid white;
